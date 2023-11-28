@@ -6,6 +6,8 @@ body {
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
+  /* ADDING FONT SIZE HERE */
+  font-size: 22px;
 }
 
 .small-para {
@@ -13,15 +15,12 @@ body {
   font-weight: 800;
 }
 
-.para {
+/* REMOVE FONT SIZE
+ .para {
   font-size: 22px;
-}
+} */
 
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
+
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -29,14 +28,31 @@ body {
   font-size: 20px;
 }
 
-.child {
+/* Place confirm class after button class */
+.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+} 
+
+
+div .text {
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 100;
+}
+
+
+/* add a 'div' to only select '.child' under it  */
+div .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
 
-div.text {
-  color: rgb(0, 0, 0);
-  font-size: 22px;
-  font-weight: 100;
-}
+
+
+/* ---- My Answer 
+        I Never Change anyhthing just playin with the order of the selectors, thats the objectif of this lesson either :D
+---- */
+
